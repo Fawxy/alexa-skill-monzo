@@ -1,0 +1,26 @@
+{
+  "name": "alexa-skill-monzo",
+  "version": "0.0.1",
+  "description": "An Alexa skill to query monzo for bank balance and spend... initially.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Fawxy/alexa-skill-monzo.git"
+  },
+  "keywords": [
+    "alexa",
+    "monzo"
+  ],
+  "author": "Chris Byatt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fawxy/alexa-skill-monzo/issues"
+  },
+  "homepage": "https://github.com/Fawxy/alexa-skill-monzo#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6"
+  }
+}
