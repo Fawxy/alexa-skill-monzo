@@ -13,12 +13,12 @@ var handlers = {
     //   method: 'GET'
     //   headers: {}
     // }
-    var speechOutput = "Hello from" + skillName + "!"
+    var speechOutput = "Hello from " + skillName + "!"
     this.emit(":tell", speechOutput);
   },
 
   "GetSpending": function() {
-    var speechOutput = "Hello from" + skillName + "!"
+    var speechOutput = "Hello from " + skillName + "!"
     this.emit(":tell", speechOutput);
   },
 
@@ -53,7 +53,7 @@ var handlers = {
 
 exports.handler = function (event, context) {
   var alexa = Alexa.handler(event, context);
-  alexa.appId = "amzn1.echo-sdk-ams.app." + APP_ID;
+  alexa.appId = APP_ID;
   alexa.registerHandlers(handlers);
   alexa.execute();
 };
